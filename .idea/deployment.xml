@@ -6,7 +6,7 @@
       <paths name="ubuntu (a8471c37-f618-4cb0-9b28-342c39d0af18)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.6wtnGYjvQq" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Desktop/minnow" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
