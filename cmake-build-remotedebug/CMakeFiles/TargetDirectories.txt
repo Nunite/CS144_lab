@@ -1,0 +1,3 @@
+/home/lws/tmp/tmp.6wtnGYjvQq/cmake-build-remotedebug/CMakeFiles/lab0.dir
+/home/lws/tmp/tmp.6wtnGYjvQq/cmake-build-remotedebug/CMakeFiles/edit_cache.dir
+/home/lws/tmp/tmp.6wtnGYjvQq/cmake-build-remotedebug/CMakeFiles/rebuild_cache.dir
