@@ -1,1 +1,20 @@
-在 D:\Code_Development\Learn\CS144\lab0 中找不到 CMakeLists.txt 选择 CMakeLists.txt
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/lws/Desktop/minnow -B /home/lws/Desktop/minnow/cmake-build-remotedebug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building in 'Debug' mode.
+-- Configuring done (0.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/lws/Desktop/minnow/cmake-build-remotedebug
