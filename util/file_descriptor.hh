@@ -8,6 +8,7 @@
 // A reference-counted handle to a file descriptor
 class FileDescriptor
 {
+
   // FDWrapper: A handle on a kernel file descriptor.
   // FileDescriptor objects contain a std::shared_ptr to a FDWrapper.
   class FDWrapper
@@ -22,6 +23,7 @@ class FileDescriptor
 
     // Construct from a file descriptor number returned by the kernel
     explicit FDWrapper( int fd );
+
     // Closes the file descriptor upon destruction
     ~FDWrapper();
     // Calls [close(2)](\ref man2::close) on FDWrapper::fd_

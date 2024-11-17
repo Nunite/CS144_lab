@@ -1110,8 +1110,6 @@ build util/CMakeFiles/util_debug.dir/address.cc.obj: CXX_COMPILER__util_debug_un
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/eventloop.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/eventloop.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\eventloop.cc.obj.d
@@ -1119,8 +1117,6 @@ build util/CMakeFiles/util_debug.dir/eventloop.cc.obj: CXX_COMPILER__util_debug_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/file_descriptor.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/file_descriptor.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\file_descriptor.cc.obj.d
@@ -1128,8 +1124,6 @@ build util/CMakeFiles/util_debug.dir/file_descriptor.cc.obj: CXX_COMPILER__util_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/ipv4_header.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/ipv4_header.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\ipv4_header.cc.obj.d
@@ -1137,8 +1131,6 @@ build util/CMakeFiles/util_debug.dir/ipv4_header.cc.obj: CXX_COMPILER__util_debu
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/random.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/random.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\random.cc.obj.d
@@ -1146,8 +1138,6 @@ build util/CMakeFiles/util_debug.dir/random.cc.obj: CXX_COMPILER__util_debug_uns
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/socket.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/socket.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\socket.cc.obj.d
@@ -1155,8 +1145,6 @@ build util/CMakeFiles/util_debug.dir/socket.cc.obj: CXX_COMPILER__util_debug_uns
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 build util/CMakeFiles/util_debug.dir/tun.cc.obj: CXX_COMPILER__util_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/tun.cc || cmake_object_order_depends_target_util_debug
   DEP_FILE = util\CMakeFiles\util_debug.dir\tun.cc.obj.d
@@ -1164,8 +1152,6 @@ build util/CMakeFiles/util_debug.dir/tun.cc.obj: CXX_COMPILER__util_debug_unscan
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_debug.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
-  TARGET_PDB = util\libutil_debug.pdb
 
 
 # =============================================================================
@@ -1180,9 +1166,8 @@ build util/libutil_debug.a: CXX_STATIC_LIBRARY_LINKER__util_debug_Debug util/CMa
   OBJECT_DIR = util\CMakeFiles\util_debug.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_debug.dir\util_debug.pdb
   TARGET_FILE = util\libutil_debug.a
-  TARGET_PDB = util\libutil_debug.pdb
+  TARGET_PDB = util_debug.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target util_sanitized
@@ -1199,8 +1184,6 @@ build util/CMakeFiles/util_sanitized.dir/address.cc.obj: CXX_COMPILER__util_sani
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/eventloop.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/eventloop.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\eventloop.cc.obj.d
@@ -1208,8 +1191,6 @@ build util/CMakeFiles/util_sanitized.dir/eventloop.cc.obj: CXX_COMPILER__util_sa
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/file_descriptor.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\file_descriptor.cc.obj.d
@@ -1217,8 +1198,6 @@ build util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.obj: CXX_COMPILER__u
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/ipv4_header.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/ipv4_header.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\ipv4_header.cc.obj.d
@@ -1226,8 +1205,6 @@ build util/CMakeFiles/util_sanitized.dir/ipv4_header.cc.obj: CXX_COMPILER__util_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/random.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/random.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\random.cc.obj.d
@@ -1235,8 +1212,6 @@ build util/CMakeFiles/util_sanitized.dir/random.cc.obj: CXX_COMPILER__util_sanit
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/socket.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/socket.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\socket.cc.obj.d
@@ -1244,8 +1219,6 @@ build util/CMakeFiles/util_sanitized.dir/socket.cc.obj: CXX_COMPILER__util_sanit
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 build util/CMakeFiles/util_sanitized.dir/tun.cc.obj: CXX_COMPILER__util_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/tun.cc || cmake_object_order_depends_target_util_sanitized
   DEP_FILE = util\CMakeFiles\util_sanitized.dir\tun.cc.obj.d
@@ -1253,8 +1226,6 @@ build util/CMakeFiles/util_sanitized.dir/tun.cc.obj: CXX_COMPILER__util_sanitize
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_sanitized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
-  TARGET_PDB = util\libutil_sanitized.pdb
 
 
 # =============================================================================
@@ -1269,9 +1240,8 @@ build util/libutil_sanitized.a: CXX_STATIC_LIBRARY_LINKER__util_sanitized_Debug 
   OBJECT_DIR = util\CMakeFiles\util_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_sanitized.dir\util_sanitized.pdb
   TARGET_FILE = util\libutil_sanitized.a
-  TARGET_PDB = util\libutil_sanitized.pdb
+  TARGET_PDB = util_sanitized.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target util_optimized
@@ -1288,8 +1258,6 @@ build util/CMakeFiles/util_optimized.dir/address.cc.obj: CXX_COMPILER__util_opti
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/eventloop.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/eventloop.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\eventloop.cc.obj.d
@@ -1297,8 +1265,6 @@ build util/CMakeFiles/util_optimized.dir/eventloop.cc.obj: CXX_COMPILER__util_op
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/file_descriptor.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/file_descriptor.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\file_descriptor.cc.obj.d
@@ -1306,8 +1272,6 @@ build util/CMakeFiles/util_optimized.dir/file_descriptor.cc.obj: CXX_COMPILER__u
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/ipv4_header.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/ipv4_header.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\ipv4_header.cc.obj.d
@@ -1315,8 +1279,6 @@ build util/CMakeFiles/util_optimized.dir/ipv4_header.cc.obj: CXX_COMPILER__util_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/random.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/random.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\random.cc.obj.d
@@ -1324,8 +1286,6 @@ build util/CMakeFiles/util_optimized.dir/random.cc.obj: CXX_COMPILER__util_optim
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/socket.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/socket.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\socket.cc.obj.d
@@ -1333,8 +1293,6 @@ build util/CMakeFiles/util_optimized.dir/socket.cc.obj: CXX_COMPILER__util_optim
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 build util/CMakeFiles/util_optimized.dir/tun.cc.obj: CXX_COMPILER__util_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/util/tun.cc || cmake_object_order_depends_target_util_optimized
   DEP_FILE = util\CMakeFiles\util_optimized.dir\tun.cc.obj.d
@@ -1342,8 +1300,6 @@ build util/CMakeFiles/util_optimized.dir/tun.cc.obj: CXX_COMPILER__util_optimize
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   OBJECT_FILE_DIR = util\CMakeFiles\util_optimized.dir
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
-  TARGET_PDB = util\libutil_optimized.pdb
 
 
 # =============================================================================
@@ -1358,9 +1314,8 @@ build util/libutil_optimized.a: CXX_STATIC_LIBRARY_LINKER__util_optimized_Debug 
   OBJECT_DIR = util\CMakeFiles\util_optimized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = util\CMakeFiles\util_optimized.dir\util_optimized.pdb
   TARGET_FILE = util\libutil_optimized.a
-  TARGET_PDB = util\libutil_optimized.pdb
+  TARGET_PDB = util_optimized.a.dbg
 
 
 #############################################
@@ -1417,8 +1372,6 @@ build src/CMakeFiles/minnow_debug.dir/byte_stream.cc.obj: CXX_COMPILER__minnow_d
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_debug.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_debug.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_debug.dir\minnow_debug.pdb
-  TARGET_PDB = src\libminnow_debug.pdb
 
 build src/CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.obj: CXX_COMPILER__minnow_debug_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/src/byte_stream_helpers.cc || cmake_object_order_depends_target_minnow_debug
   DEP_FILE = src\CMakeFiles\minnow_debug.dir\byte_stream_helpers.cc.obj.d
@@ -1426,8 +1379,6 @@ build src/CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.obj: CXX_COMPILER__
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_debug.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_debug.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_debug.dir\minnow_debug.pdb
-  TARGET_PDB = src\libminnow_debug.pdb
 
 
 # =============================================================================
@@ -1442,9 +1393,8 @@ build src/libminnow_debug.a: CXX_STATIC_LIBRARY_LINKER__minnow_debug_Debug src/C
   OBJECT_DIR = src\CMakeFiles\minnow_debug.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_debug.dir\minnow_debug.pdb
   TARGET_FILE = src\libminnow_debug.a
-  TARGET_PDB = src\libminnow_debug.pdb
+  TARGET_PDB = minnow_debug.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target minnow_sanitized
@@ -1461,8 +1411,6 @@ build src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.obj: CXX_COMPILER__minn
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_sanitized.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_sanitized.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_sanitized.dir\minnow_sanitized.pdb
-  TARGET_PDB = src\libminnow_sanitized.pdb
 
 build src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.obj: CXX_COMPILER__minnow_sanitized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/src/byte_stream_helpers.cc || cmake_object_order_depends_target_minnow_sanitized
   DEP_FILE = src\CMakeFiles\minnow_sanitized.dir\byte_stream_helpers.cc.obj.d
@@ -1470,8 +1418,6 @@ build src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.obj: CXX_COMPIL
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_sanitized.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_sanitized.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_sanitized.dir\minnow_sanitized.pdb
-  TARGET_PDB = src\libminnow_sanitized.pdb
 
 
 # =============================================================================
@@ -1486,9 +1432,8 @@ build src/libminnow_sanitized.a: CXX_STATIC_LIBRARY_LINKER__minnow_sanitized_Deb
   OBJECT_DIR = src\CMakeFiles\minnow_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_sanitized.dir\minnow_sanitized.pdb
   TARGET_FILE = src\libminnow_sanitized.a
-  TARGET_PDB = src\libminnow_sanitized.pdb
+  TARGET_PDB = minnow_sanitized.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target minnow_optimized
@@ -1505,8 +1450,6 @@ build src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.obj: CXX_COMPILER__minn
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_optimized.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_optimized.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_optimized.dir\minnow_optimized.pdb
-  TARGET_PDB = src\libminnow_optimized.pdb
 
 build src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.obj: CXX_COMPILER__minnow_optimized_unscanned_Debug D$:/Code_Development/Learn/CS144/lab0/src/byte_stream_helpers.cc || cmake_object_order_depends_target_minnow_optimized
   DEP_FILE = src\CMakeFiles\minnow_optimized.dir\byte_stream_helpers.cc.obj.d
@@ -1514,8 +1457,6 @@ build src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.obj: CXX_COMPIL
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = src\CMakeFiles\minnow_optimized.dir
   OBJECT_FILE_DIR = src\CMakeFiles\minnow_optimized.dir
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_optimized.dir\minnow_optimized.pdb
-  TARGET_PDB = src\libminnow_optimized.pdb
 
 
 # =============================================================================
@@ -1530,9 +1471,8 @@ build src/libminnow_optimized.a: CXX_STATIC_LIBRARY_LINKER__minnow_optimized_Deb
   OBJECT_DIR = src\CMakeFiles\minnow_optimized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\CMakeFiles\minnow_optimized.dir\minnow_optimized.pdb
   TARGET_FILE = src\libminnow_optimized.a
-  TARGET_PDB = src\libminnow_optimized.pdb
+  TARGET_PDB = minnow_optimized.a.dbg
 
 
 #############################################
@@ -1589,8 +1529,6 @@ build tests/CMakeFiles/minnow_testing_debug.dir/common.cc.obj: CXX_COMPILER__min
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\minnow_testing_debug.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\minnow_testing_debug.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\minnow_testing_debug.dir\minnow_testing_debug.pdb
-  TARGET_PDB = tests\libminnow_testing_debug.pdb
 
 
 # =============================================================================
@@ -1605,9 +1543,8 @@ build tests/libminnow_testing_debug.a: CXX_STATIC_LIBRARY_LINKER__minnow_testing
   OBJECT_DIR = tests\CMakeFiles\minnow_testing_debug.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\minnow_testing_debug.dir\minnow_testing_debug.pdb
   TARGET_FILE = tests\libminnow_testing_debug.a
-  TARGET_PDB = tests\libminnow_testing_debug.pdb
+  TARGET_PDB = minnow_testing_debug.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target minnow_testing_sanitized
@@ -1624,8 +1561,6 @@ build tests/CMakeFiles/minnow_testing_sanitized.dir/common.cc.obj: CXX_COMPILER_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\minnow_testing_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\minnow_testing_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\minnow_testing_sanitized.dir\minnow_testing_sanitized.pdb
-  TARGET_PDB = tests\libminnow_testing_sanitized.pdb
 
 
 # =============================================================================
@@ -1640,9 +1575,8 @@ build tests/libminnow_testing_sanitized.a: CXX_STATIC_LIBRARY_LINKER__minnow_tes
   OBJECT_DIR = tests\CMakeFiles\minnow_testing_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\minnow_testing_sanitized.dir\minnow_testing_sanitized.pdb
   TARGET_FILE = tests\libminnow_testing_sanitized.a
-  TARGET_PDB = tests\libminnow_testing_sanitized.pdb
+  TARGET_PDB = minnow_testing_sanitized.a.dbg
 
 
 #############################################
@@ -1671,8 +1605,6 @@ build tests/CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.ob
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_basics_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_basics_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_basics_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_basics_sanitized.pdb
 
 
 # =============================================================================
@@ -1689,10 +1621,9 @@ build tests/byte_stream_basics_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_stream
   OBJECT_DIR = tests\CMakeFiles\byte_stream_basics_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_basics_sanitized.dir\
   TARGET_FILE = tests\byte_stream_basics_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_basics_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_basics_sanitized.pdb
+  TARGET_PDB = byte_stream_basics_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_basics
@@ -1709,8 +1640,6 @@ build tests/CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.obj: CXX_COM
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_basics.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_basics.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_basics.dir\
-  TARGET_PDB = tests\byte_stream_basics.pdb
 
 
 # =============================================================================
@@ -1726,10 +1655,9 @@ build tests/byte_stream_basics.exe: CXX_EXECUTABLE_LINKER__byte_stream_basics_De
   OBJECT_DIR = tests\CMakeFiles\byte_stream_basics.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_basics.dir\
   TARGET_FILE = tests\byte_stream_basics.exe
   TARGET_IMPLIB = tests\libbyte_stream_basics.dll.a
-  TARGET_PDB = tests\byte_stream_basics.pdb
+  TARGET_PDB = byte_stream_basics.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_capacity_sanitized
@@ -1746,8 +1674,6 @@ build tests/CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.c
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_capacity_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_capacity_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_capacity_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_capacity_sanitized.pdb
 
 
 # =============================================================================
@@ -1764,10 +1690,9 @@ build tests/byte_stream_capacity_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_stre
   OBJECT_DIR = tests\CMakeFiles\byte_stream_capacity_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_capacity_sanitized.dir\
   TARGET_FILE = tests\byte_stream_capacity_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_capacity_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_capacity_sanitized.pdb
+  TARGET_PDB = byte_stream_capacity_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_capacity
@@ -1784,8 +1709,6 @@ build tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.obj: CXX
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_capacity.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_capacity.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_capacity.dir\
-  TARGET_PDB = tests\byte_stream_capacity.pdb
 
 
 # =============================================================================
@@ -1801,10 +1724,9 @@ build tests/byte_stream_capacity.exe: CXX_EXECUTABLE_LINKER__byte_stream_capacit
   OBJECT_DIR = tests\CMakeFiles\byte_stream_capacity.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_capacity.dir\
   TARGET_FILE = tests\byte_stream_capacity.exe
   TARGET_IMPLIB = tests\libbyte_stream_capacity.dll.a
-  TARGET_PDB = tests\byte_stream_capacity.pdb
+  TARGET_PDB = byte_stream_capacity.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_one_write_sanitized
@@ -1821,8 +1743,6 @@ build tests/CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_one_write_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_one_write_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_one_write_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_one_write_sanitized.pdb
 
 
 # =============================================================================
@@ -1839,10 +1759,9 @@ build tests/byte_stream_one_write_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_str
   OBJECT_DIR = tests\CMakeFiles\byte_stream_one_write_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_one_write_sanitized.dir\
   TARGET_FILE = tests\byte_stream_one_write_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_one_write_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_one_write_sanitized.pdb
+  TARGET_PDB = byte_stream_one_write_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_one_write
@@ -1859,8 +1778,6 @@ build tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.obj: C
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_one_write.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_one_write.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_one_write.dir\
-  TARGET_PDB = tests\byte_stream_one_write.pdb
 
 
 # =============================================================================
@@ -1876,10 +1793,9 @@ build tests/byte_stream_one_write.exe: CXX_EXECUTABLE_LINKER__byte_stream_one_wr
   OBJECT_DIR = tests\CMakeFiles\byte_stream_one_write.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_one_write.dir\
   TARGET_FILE = tests\byte_stream_one_write.exe
   TARGET_IMPLIB = tests\libbyte_stream_one_write.dll.a
-  TARGET_PDB = tests\byte_stream_one_write.pdb
+  TARGET_PDB = byte_stream_one_write.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_two_writes_sanitized
@@ -1896,8 +1812,6 @@ build tests/CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writ
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_two_writes_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_two_writes_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_two_writes_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_two_writes_sanitized.pdb
 
 
 # =============================================================================
@@ -1914,10 +1828,9 @@ build tests/byte_stream_two_writes_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_st
   OBJECT_DIR = tests\CMakeFiles\byte_stream_two_writes_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_two_writes_sanitized.dir\
   TARGET_FILE = tests\byte_stream_two_writes_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_two_writes_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_two_writes_sanitized.pdb
+  TARGET_PDB = byte_stream_two_writes_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_two_writes
@@ -1934,8 +1847,6 @@ build tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.obj:
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_two_writes.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_two_writes.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_two_writes.dir\
-  TARGET_PDB = tests\byte_stream_two_writes.pdb
 
 
 # =============================================================================
@@ -1951,10 +1862,9 @@ build tests/byte_stream_two_writes.exe: CXX_EXECUTABLE_LINKER__byte_stream_two_w
   OBJECT_DIR = tests\CMakeFiles\byte_stream_two_writes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_two_writes.dir\
   TARGET_FILE = tests\byte_stream_two_writes.exe
   TARGET_IMPLIB = tests\libbyte_stream_two_writes.dll.a
-  TARGET_PDB = tests\byte_stream_two_writes.pdb
+  TARGET_PDB = byte_stream_two_writes.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_many_writes_sanitized
@@ -1971,8 +1881,6 @@ build tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_wr
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_many_writes_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_many_writes_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_many_writes_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_many_writes_sanitized.pdb
 
 
 # =============================================================================
@@ -1989,10 +1897,9 @@ build tests/byte_stream_many_writes_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_s
   OBJECT_DIR = tests\CMakeFiles\byte_stream_many_writes_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_many_writes_sanitized.dir\
   TARGET_FILE = tests\byte_stream_many_writes_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_many_writes_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_many_writes_sanitized.pdb
+  TARGET_PDB = byte_stream_many_writes_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_many_writes
@@ -2009,8 +1916,6 @@ build tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.ob
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_many_writes.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_many_writes.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_many_writes.dir\
-  TARGET_PDB = tests\byte_stream_many_writes.pdb
 
 
 # =============================================================================
@@ -2026,10 +1931,9 @@ build tests/byte_stream_many_writes.exe: CXX_EXECUTABLE_LINKER__byte_stream_many
   OBJECT_DIR = tests\CMakeFiles\byte_stream_many_writes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_many_writes.dir\
   TARGET_FILE = tests\byte_stream_many_writes.exe
   TARGET_IMPLIB = tests\libbyte_stream_many_writes.dll.a
-  TARGET_PDB = tests\byte_stream_many_writes.pdb
+  TARGET_PDB = byte_stream_many_writes.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_stress_test_sanitized
@@ -2046,8 +1950,6 @@ build tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_stress_test_sanitized.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_stress_test_sanitized.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_stress_test_sanitized.dir\
-  TARGET_PDB = tests\byte_stream_stress_test_sanitized.pdb
 
 
 # =============================================================================
@@ -2064,10 +1966,9 @@ build tests/byte_stream_stress_test_sanitized.exe: CXX_EXECUTABLE_LINKER__byte_s
   OBJECT_DIR = tests\CMakeFiles\byte_stream_stress_test_sanitized.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_stress_test_sanitized.dir\
   TARGET_FILE = tests\byte_stream_stress_test_sanitized.exe
   TARGET_IMPLIB = tests\libbyte_stream_stress_test_sanitized.dll.a
-  TARGET_PDB = tests\byte_stream_stress_test_sanitized.pdb
+  TARGET_PDB = byte_stream_stress_test_sanitized.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_stress_test
@@ -2084,8 +1985,6 @@ build tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.ob
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_stress_test.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_stress_test.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_stress_test.dir\
-  TARGET_PDB = tests\byte_stream_stress_test.pdb
 
 
 # =============================================================================
@@ -2101,10 +2000,9 @@ build tests/byte_stream_stress_test.exe: CXX_EXECUTABLE_LINKER__byte_stream_stre
   OBJECT_DIR = tests\CMakeFiles\byte_stream_stress_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_stress_test.dir\
   TARGET_FILE = tests\byte_stream_stress_test.exe
   TARGET_IMPLIB = tests\libbyte_stream_stress_test.dll.a
-  TARGET_PDB = tests\byte_stream_stress_test.pdb
+  TARGET_PDB = byte_stream_stress_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target byte_stream_speed_test
@@ -2121,8 +2019,6 @@ build tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.obj:
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = tests\CMakeFiles\byte_stream_speed_test.dir
   OBJECT_FILE_DIR = tests\CMakeFiles\byte_stream_speed_test.dir
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_speed_test.dir\
-  TARGET_PDB = tests\byte_stream_speed_test.pdb
 
 
 # =============================================================================
@@ -2138,10 +2034,9 @@ build tests/byte_stream_speed_test.exe: CXX_EXECUTABLE_LINKER__byte_stream_speed
   OBJECT_DIR = tests\CMakeFiles\byte_stream_speed_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = tests\CMakeFiles\byte_stream_speed_test.dir\
   TARGET_FILE = tests\byte_stream_speed_test.exe
   TARGET_IMPLIB = tests\libbyte_stream_speed_test.dll.a
-  TARGET_PDB = tests\byte_stream_speed_test.pdb
+  TARGET_PDB = byte_stream_speed_test.exe.dbg
 
 
 #############################################
@@ -2198,8 +2093,6 @@ build apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.obj: CXX_COMP
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = apps\CMakeFiles\stream_copy.dir
   OBJECT_FILE_DIR = apps\CMakeFiles\stream_copy.dir
-  TARGET_COMPILE_PDB = apps\CMakeFiles\stream_copy.dir\stream_copy.pdb
-  TARGET_PDB = apps\libstream_copy.pdb
 
 
 # =============================================================================
@@ -2214,9 +2107,8 @@ build apps/libstream_copy.a: CXX_STATIC_LIBRARY_LINKER__stream_copy_Debug apps/C
   OBJECT_DIR = apps\CMakeFiles\stream_copy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = apps\CMakeFiles\stream_copy.dir\stream_copy.pdb
   TARGET_FILE = apps\libstream_copy.a
-  TARGET_PDB = apps\libstream_copy.pdb
+  TARGET_PDB = stream_copy.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target webget
@@ -2233,8 +2125,6 @@ build apps/CMakeFiles/webget.dir/webget.cc.obj: CXX_COMPILER__webget_unscanned_D
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = apps\CMakeFiles\webget.dir
   OBJECT_FILE_DIR = apps\CMakeFiles\webget.dir
-  TARGET_COMPILE_PDB = apps\CMakeFiles\webget.dir\
-  TARGET_PDB = apps\webget.pdb
 
 
 # =============================================================================
@@ -2250,10 +2140,9 @@ build apps/webget.exe: CXX_EXECUTABLE_LINKER__webget_Debug apps/CMakeFiles/webge
   OBJECT_DIR = apps\CMakeFiles\webget.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = apps\CMakeFiles\webget.dir\
   TARGET_FILE = apps\webget.exe
   TARGET_IMPLIB = apps\libwebget.dll.a
-  TARGET_PDB = apps\webget.pdb
+  TARGET_PDB = webget.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target tcp_native
@@ -2270,8 +2159,6 @@ build apps/CMakeFiles/tcp_native.dir/tcp_native.cc.obj: CXX_COMPILER__tcp_native
   INCLUDES = -ID:/Code_Development/Learn/CS144/lab0/util -ID:/Code_Development/Learn/CS144/lab0/src
   OBJECT_DIR = apps\CMakeFiles\tcp_native.dir
   OBJECT_FILE_DIR = apps\CMakeFiles\tcp_native.dir
-  TARGET_COMPILE_PDB = apps\CMakeFiles\tcp_native.dir\
-  TARGET_PDB = apps\tcp_native.pdb
 
 
 # =============================================================================
@@ -2287,10 +2174,9 @@ build apps/tcp_native.exe: CXX_EXECUTABLE_LINKER__tcp_native_Debug apps/CMakeFil
   OBJECT_DIR = apps\CMakeFiles\tcp_native.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = apps\CMakeFiles\tcp_native.dir\
   TARGET_FILE = apps\tcp_native.exe
   TARGET_IMPLIB = apps\libtcp_native.dll.a
-  TARGET_PDB = apps\tcp_native.pdb
+  TARGET_PDB = tcp_native.exe.dbg
 
 
 #############################################
@@ -2475,14 +2361,14 @@ build util/all: phony util/libutil_debug.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeRCCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake D$:/Code_Development/Learn/CS144/lab0/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/apps/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/etc/build_type.cmake D$:/Code_Development/Learn/CS144/lab0/etc/cflags.cmake D$:/Code_Development/Learn/CS144/lab0/etc/scanners.cmake D$:/Code_Development/Learn/CS144/lab0/etc/tests.cmake D$:/Code_Development/Learn/CS144/lab0/src/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/tests/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/util/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTest.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestTargets.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestUseLaunchers.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/DartConfiguration.tcl.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeRCCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake D$:/Code_Development/Learn/CS144/lab0/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/apps/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/etc/build_type.cmake D$:/Code_Development/Learn/CS144/lab0/etc/cflags.cmake D$:/Code_Development/Learn/CS144/lab0/etc/scanners.cmake D$:/Code_Development/Learn/CS144/lab0/etc/tests.cmake D$:/Code_Development/Learn/CS144/lab0/src/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/tests/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/util/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTest.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestTargets.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestUseLaunchers.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/DartConfiguration.tcl.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeRCCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake D$:/Code_Development/Learn/CS144/lab0/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/apps/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/etc/build_type.cmake D$:/Code_Development/Learn/CS144/lab0/etc/cflags.cmake D$:/Code_Development/Learn/CS144/lab0/etc/scanners.cmake D$:/Code_Development/Learn/CS144/lab0/etc/tests.cmake D$:/Code_Development/Learn/CS144/lab0/src/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/tests/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/util/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTest.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestTargets.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestUseLaunchers.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/DartConfiguration.tcl.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.28.6/CMakeCXXCompiler.cmake CMakeFiles/3.28.6/CMakeRCCompiler.cmake CMakeFiles/3.28.6/CMakeSystem.cmake D$:/Code_Development/Learn/CS144/lab0/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/apps/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/etc/build_type.cmake D$:/Code_Development/Learn/CS144/lab0/etc/cflags.cmake D$:/Code_Development/Learn/CS144/lab0/etc/scanners.cmake D$:/Code_Development/Learn/CS144/lab0/etc/tests.cmake D$:/Code_Development/Learn/CS144/lab0/src/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/tests/CMakeLists.txt D$:/Code_Development/Learn/CS144/lab0/util/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTest.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestTargets.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/CTestUseLaunchers.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/DartConfiguration.tcl.in D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.6/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
